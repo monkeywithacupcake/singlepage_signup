@@ -5,7 +5,6 @@ import { createStore, applyMiddleware } from 'redux';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import reduxThunk from 'redux-thunk';
 import 'materialize-css/dist/css/materialize.min.css';
-// import './style.css'
 
 import App from './components/App';
 import Privacy from './components/privacy';
